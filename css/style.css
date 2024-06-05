@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+/**
+ * Created by llairen on 2017/3/9.
+ * author    : Mike
+ * e-mail    : zhanmengle@163.com
+ */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+@font-face {
+    font-family: 'lujinsuo';
+    src:    url('../font/lujinsuo.eot'),
+    url('../font/lujinsuo.svg'),
+    url('../font/lujinsuo.ttf'),
+    url('../font/lujinsuo.woff');
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    font-family: lujinsuo;
+    font-style: normal;
+}
+
+.icon-mobilephone:before {
+    content: "\e908";
+    font-size: 12px;
+}
+
+.icon-telephone:before {
+    content: "\e909";
+    font-size: 14px;
+}
+#special_con [class*=' icon-'], #special_con [class^='icon-'] {
+    font-size: 30px;
+}
+
+#news [class^='icon-'], #news [class*=' icon-'] {
+    font-size: 40px;
+}
+
+.icon-uniE920::before {
+    content: "\e920";
+}
+
+.icon-uniE93E::before {
+    content: "\e93e";
+}
+.icon-uniE900::before {
+    content: "\e900";
+}
+.icon-uniE901::before {
+    content: "\e901";
+}
+.icon-uniE902::before {
+    content: "\e902";
+}
+.icon-uniE903::before {
+    content: "\e903";
+}
+.icon-uniE904::before {
+    content: "\e904";
+}
+.icon-uniE907::before {
+    content: "\e907";
+}
+.icon-uniE906::before {
+    content: '\e906';
+}
+.icon-uniE905::before {
+    content: '\e905';
+}
+.icon-news01::before {
+    content: '\e90e';
+}
+.icon-news02::before {
+    content: '\e90f';
+}
+.icon-news03::before {
+    content: '\e910';
+}
+.icon-news04::before {
+    content: '\e911';
+}
+/* footer */
+.icon-uniE929::before {
+    content: '\e929';
+}
+.icon-uniE92A::before {
+    content: '\e92a';
+}
+.icon-360::before {
+    content: '\e92b';
+}
+.icon-uniE92C::before {
+    content: '\e92c';
+}
+.icon-uniE92D::before {
+    content: '\e92d';
+}
+.icon-uniE92E::before {
+    content: '\e92e';
+}
+.icon-uniE92F::before {
+    content: '\e92f';
+}
+.icon-uniE930::before {
+    content: '\e930';
+}
+.icon-uniE931::before {
+    content: '\e931';
+}
+
+
+
+/*
+*
+*    重写bootstrap 样式
+*/
+.btn-lumoney {
+    color: #fff;
+    background-color: #E92322;
+}
+.btn-lumoney:focus,
+.btn-lumoney.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.btn-lumoney:hover {
+    color: #fff;
+    background-color: #E92322;
+    /* border-color: #adadad; */
+}
+.btn-lumoney:active,
+.btn-lumoney.active,
+.open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-lumoney:active:hover,
+.btn-lumoney.active:hover,
+.open > .dropdown-toggle.btn-lumoney:hover,
+.btn-lumoney:active:focus,
+.btn-lumoney.active:focus,
+.open > .dropdown-toggle.btn-lumoney:focus,
+.btn-lumoney:active.focus,
+.btn-lumoney.active.focus,
+.open > .dropdown-toggle.btn-lumoney.focus {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+}
+.btn-lumoney:active,
+.btn-lumoney.active,
+.open > .dropdown-toggle.btn-lumoney {
+    background-image: none;
+}
+.btn-lumoney.disabled:hover,
+.btn-lumoney[disabled]:hover,
+fieldset[disabled] .btn-lumoney:hover,
+.btn-lumoney.disabled:focus,
+.btn-lumoney[disabled]:focus,
+fieldset[disabled] .btn-lumoney:focus,
+.btn-lumoney.disabled.focus,
+.btn-lumoney[disabled].focus,
+fieldset[disabled] .btn-lumoney.focus {
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-lumoney .badge {
+    color: #fff;
+    background-color: #333;
+}
+
+
+.navbar-lumoney {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+}
+.navbar-lumoney .navbar-brand {
+    color: #777;
+}
+.navbar-lumoney .navbar-brand:hover,
+.navbar-lumoney .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-lumoney .navbar-text {
+    color: #777;
+}
+.navbar-lumoney .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-lumoney .navbar-nav > li > a:hover,
+.navbar-lumoney .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-lumoney .navbar-nav > .active > a,
+.navbar-lumoney .navbar-nav > .active > a:hover,
+.navbar-lumoney .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-lumoney .navbar-nav > .disabled > a,
+.navbar-lumoney .navbar-nav > .disabled > a:hover,
+.navbar-lumoney .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-lumoney .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-lumoney .navbar-toggle:hover,
+.navbar-lumoney .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-lumoney .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-lumoney .navbar-collapse,
+.navbar-lumoney .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-lumoney .navbar-nav > .open > a,
+.navbar-lumoney .navbar-nav > .open > a:hover,
+.navbar-lumoney .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-lumoney .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-lumoney .navbar-link {
+    color: #777;
+}
+.navbar-lumoney .navbar-link:hover {
+    color: #333;
+}
+.navbar-lumoney .btn-link {
+    color: #777;
+}
+.navbar-lumoney .btn-link:hover,
+.navbar-lumoney .btn-link:focus {
+    color: #333;
+}
+.navbar-lumoney .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-lumoney .btn-link:hover,
+.navbar-lumoney .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-lumoney .btn-link:focus {
+    color: #ccc;
+}
+
